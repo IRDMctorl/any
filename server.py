@@ -11,6 +11,3 @@ def subdomain_home():
 @app.route('/')
 def main_home():
     return 'Hello from the main domain!'
-
-if __name__ == '__main__':
-    app.run(debug=True)
